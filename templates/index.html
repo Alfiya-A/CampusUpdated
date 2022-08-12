@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Predictor</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            body{
+                font-size:30px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Campus Recruitment Predictor</h1>
+        <div class="change">
+            <form action="/result" method="POST">
+                <label for="Gender">Gender</label>
+                <select id="Gender" name="Gender">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                </select>
+                <br><br>
+                <label for="SSC_P">SSC_P</label>
+                <input type="text" id="SSC_P" name="SSC_P">
+                <br>
+
+                <br>
+                <label for="SSC_Board">SSC_Board</label>
+                <select id="SSC_Board" name="SSC_Board">
+                    <option value="1">Others</option>
+                    <option value="0">Central</option>
+                </select>
+                <br>
+
+                <br>
+                <label for="HSC_P">HSC_P</label>
+                <input type="text" id="HSC_P" name="HSC_P">
+                <br>
+
+                <br>
+                <label for="HSC_Board">HSC_Board</label>
+                <select id="HSC_Board" name="HSC_Board">
+                    <option value="1">Others</option>
+                    <option value="0">Central</option>
+                </select>
+                <br>
+
+                <br>
+                <label for="HSC_Stream">HSC_Stream</label>
+                <select id="HSC_Stream" name="HSC_Stream">
+                    <option value="0">Arts</option>
+                    <option value="1">Commerce</option>
+                    <option value="2">Science</option>
+                </select>
+                <br>
+                <br>
+                <label for="Degree_P">Degree_P</label>
+                <input type="text" id="Degree_P" name="Degree_P">
+                <br>
+
+                <br>
+                <label for="Degree">Degree</label>
+                <select id="Degree" name="Degree">
+                    <option value="0">Comm&Mgmt	</option>
+                    <option value="1">Others</option>
+                    <option value="2">Sci&Tech</option>
+                </select>
+                <br>
+                <br>
+                <label for="Experience">Experience</label>
+                <select id="Experience" name="Experience">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </select>
+                <br>
+                <br>
+                <label for="Etest_P">Etest_P</label>
+                <input type="text" id="Etest_P" name="Etest_P">
+                <br>
+                <br>
+                <label for="Specialization">Specialization</label>
+                <select id="Specialization" name="Specialization">
+                    <option value="0">Mkt&Fin</option>
+                    <option value="1">Mkt&HR</option>
+                </select>
+                <br>
+                <br>
+                <label for="Etest_P">Etest_P</label>
+                <input type="text" id="Etest_P" name="Etest_P">
+                <br>
+                <br>
+
+                <label for="Salary">Salary</label>
+                <input type="text" id="Salary" name="Salary">
+                <br>
+                <input type="submit" value="Submit">
+
+            </form> 
+        </div>
+    </body>
+</html>
